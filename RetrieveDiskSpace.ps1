@@ -1,4 +1,16 @@
 function RetrieveDiskSpace {
+
+﻿<#
+This PowerShell script obtains the amount of disk space in the primary disk.
+
+Usage:
+PS> ./RetrieveDiskSpace.ps1
+
+Link: 
+github.com/jluo1875/Powershell-Scripts
+#>
+
+
   Get-CimInstance -Class Win32_PrimaryDisk |
   Select-Object -Property @{
       Label = 'DriveLetter'
