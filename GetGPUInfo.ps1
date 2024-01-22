@@ -4,7 +4,7 @@ function Bytes2String { param([int64]$Bytes)
 This PowerShell script obtains the GPU status and prints it.
 
 Usage:
-PS> ./check-gpu.ps1
+PS> ./GetGPUInfo.ps1
 NVIDIA GeForce RTX 2080 Super (8GB RAM, 1920x1080 pixels, 32-bit, 240Hz, driver 31.0.15.1740, status OK)
 
 Link: 
