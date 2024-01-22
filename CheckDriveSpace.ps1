@@ -1,11 +1,10 @@
-
 param([string]$Drive = "", [int]$MinLevel = 5)
 
 ﻿<#
 This PowerShell script checks a drive for free space left, with a minimum of 5 GB. 
 
 Usage:
-PS> ./check-drive-space C
+PS> ./CheckDriveSpace C
 
 Link: 
 github.com/jluo1875/Powershell-Scripts
