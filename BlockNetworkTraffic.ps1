@@ -1,21 +1,23 @@
 function BlockNetworkTraffic {
 
-<# 
-DESCRIPTION
-Blocks network traffic destined to the provided IP address and/or port, adds a rule to the local Windows Firewall policy so network traffic destined to the provided IP address and/or port is blocked.
+<#
+Blocks network traffic destined to the provided IP address and/or port, adds a rule to the local Windows Firewall policy so network traffic destined to the provided IP address and/or port is blocked. 
 
-PARAMETER Protocol
-Specifies the protocol to block.
+Parameters:
 
-PARAMETER IPAddress
-Specifies the IP address to block traffic.
+Protocol: Specifies the protocol to block.
 
-PARAMETER Port
-Specifies the port to block traffic.
+IP Address: Specifies the IP address to block traffic.
 
-EXAMPLE
+Port: Specifies the port to block traffic.
+
+Usage:
 PS> BlockNetworkTraffic -Protocol UDP -IpAddress 8.8.8.8 -Port 53
+
+Link:
+github.com/jluo1875/Powershell-Scripts
 #>
+
   Param(
       [ValidateSet("Any","TCP","UDP","ICMPv4","ICMPv6")][string]$Protocol = "Any",
       [Parameter(Mandatory)][ipaddress]$IpAddress,
