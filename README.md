@@ -1,5 +1,4 @@
-# SOAP Powershell
+# A Collection of Powershell Scripts
 
-A list of Powershell scripts that I created that disable the firewall and more! 
+A list of Powershell scripts that I created to better understand shell scripting. 
 
-A work in progress.
