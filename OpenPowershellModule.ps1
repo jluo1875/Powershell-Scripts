@@ -1,4 +1,4 @@
-function Edit-Module {
+function OpenPowershellModule {
 <#
 Opens the specified PowerShell script module file (.psm1) using PowerShell ISE. 
 
