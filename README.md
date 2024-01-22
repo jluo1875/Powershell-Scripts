@@ -1,5 +1,5 @@
 # SOAP Powershell
 
-A list of Powershell scripts that I created that utilize the SOAP module. 
+A list of Powershell scripts that I created that disable the firewall and more! 
 
 A work in progress.
